@@ -1,0 +1,152 @@
+body {
+  background: url("./images/fly.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.mainbg {
+  width: 100%;
+  background: url("./images/fly.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1c120c;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-box {
+  max-width: 700px;
+  float: none;
+  margin: 158px auto;
+}
+
+.login-left {
+  background: rgba(211, 211, 211, 0.5);
+  padding: 30px;
+}
+
+.login-right {
+  background: #fff;
+  padding: 30px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #031837;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.barIcon {
+  width: 50px;
+  padding: 6px;
+  height: 50px;
+  margin-top: 15px;
+}
+.barIcon:hover {
+  background-color: darkblue;
+  border: 2px solid #00d6b4;
+  border-radius: 10px;
+}
+.iconGroup {
+  left: 50px important;
+  background: #007bff;
+  text-align: center;
+  padding-right: 7px;
+}
+
+.main-form {
+  max-width: 700px;
+  float: none;
+  margin: 20px auto;
+  left: 50px;
+}
+
+.offeredBooks {
+  max-width: 1000px;
+  float: none;
+  margin: 20px auto;
+  left: 50px;
+}
+
+.offeredBook {
+  margin: 20px;
+  height: 300px;
+  width: 200px;
+  padding: 3px;
+  border: 2px dashed #031837;
+}
+
+.detailsHolder {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.801);
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: none;
+  text-align: center;
+}
+
+#bookPrice,
+#bookName,
+#bookInfo,
+#bookCategory {
+  color: tomato;
+}
+
+.dHolder {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#editingBookForm {
+  display: none;
+}
+
+#paymentForm{
+  display: none;
+}
+.tinybox {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #007bff;
+  padding: 0;
+  margin: 0;
+  top: 72px;
+  right: 29px;
+  position: absolute;
+}
