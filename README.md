@@ -2,7 +2,7 @@
 # Book Shop eCommerce Website
 In this project, I have developed an eCommerce website using my HTML, CSS, JS, AJAX, PHP, and SQL Knowledeg. It has two types of Users privileges(Customer or Admin). Each one of them has different Navbar and different privileges. 
 
-## Screenshot
+## Screenshots
 ### Login
 ![login](https://user-images.githubusercontent.com/48028666/90678166-ff8a0b80-e266-11ea-8912-e198cfbd0221.png)
 
